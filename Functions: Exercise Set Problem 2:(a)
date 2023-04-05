@@ -15,3 +15,8 @@ def chit_chat(message):
         return message
     else:
         return 'message is greater then 200 letters'
+
+
+b=input()
+a=chit_chat(b)
+print(a)
